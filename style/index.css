@@ -60,20 +60,25 @@ html, body {
 }
 
 .top-content {
+    max-width: 1000px;
     display: flex;
     flex-direction: row;
-    margin-bottom: 20px;
-    margin-top: 10% 
+    justify-content: flex-start;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .top-content img {
-    width: 35%;
-    height: 10%;
+    margin-right: 5%;
 }
 
+
 .top-content nav {
+    width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .top-content nav a{
@@ -81,8 +86,10 @@ html, body {
     font-size: 1.6rem;
     font-family: sans-serif;
     color: black;
-    padding: 10%; 
+    
+    
 }
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
