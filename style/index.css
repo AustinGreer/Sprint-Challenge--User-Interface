@@ -47,6 +47,12 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
+
+
 /*code starts here*/
 
 * {
@@ -64,8 +70,10 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-bottom: 5%;
     margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .top-content img {
@@ -90,25 +98,34 @@ html, body {
     
 }
 
+section img {
+    margin-right: 20%;
+    margin-left: 20%;
+
+}
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 1.8rem;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
     line-height: 1.4;
+    font-size: 1.6rem;
+    font-family: sans-serif;
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
+.section-1 {
+    max-width: 1000px;
+    border-bottom: 2px dotted black;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 2%;
+    display: flex;
 }
 
-
-
-.top-content .text-container {
+.section-1 .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
