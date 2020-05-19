@@ -269,5 +269,16 @@ footer nav a {
         margin: 2% 25%;
     }
 
+    .middle-content .boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .middle-content .boxes .box {
+        width: 25%;
+        height: 10rem;
+        margin: 5% 40%;
+    }
+
 
 }
