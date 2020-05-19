@@ -269,6 +269,9 @@ footer nav a {
         margin: 2% 25%;
     }
 
+    .middle-content {
+        border: none;
+    }
     .middle-content .boxes {
         display: flex;
         flex-direction: column;
@@ -280,5 +283,18 @@ footer nav a {
         margin: 5% 40%;
     }
 
+    .bottom-content  {
+        display: flex;
+        flex-direction: column;
+        margin: 5% auto;
+    }
 
+    .bottom-content .text-container {
+        margin: 5% 0;
+    }
+
+    .bottom-content p {
+        font-size: 1.6rem;
+        padding: 0;
+    }
 }
