@@ -297,4 +297,18 @@ footer nav a {
         font-size: 1.6rem;
         padding: 0;
     }
+
+    footer {
+        display: flex;
+        width: 60%;
+    }
+
+    footer nav {
+        flex-direction: column;
+        margin: 0 30%;
+    }
+
+    footer nav a {
+        margin: 5% auto;
+    }
 }
